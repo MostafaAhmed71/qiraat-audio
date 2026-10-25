@@ -870,13 +870,16 @@ class PlayerPage extends StatelessWidget {
             if (s.error != null) Notice(s.error!),
             if (s.busy) const LinearProgressIndicator(),
             StreamBuilder<Duration?>(
+              key: ValueKey(m.key(n)),
               stream: s.player.durationStream,
-              initialData: s.player.duration,
+              initialData: s.trackDuration,
               builder: (context, dur) => StreamBuilder<Duration>(
                 stream: s.player.positionStream,
                 initialData: s.player.position,
                 builder: (context, pos) {
-                  final total = dur.data?.inMilliseconds ?? 0;
+                  final total = s.busy
+                      ? 0
+                      : (s.trackDuration ?? dur.data)?.inMilliseconds ?? 0;
                   final at = (pos.data?.inMilliseconds ?? 0).clamp(0, total);
                   return Column(
                     children: [
@@ -899,7 +902,11 @@ class PlayerPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(time(Duration(milliseconds: at.toInt()))),
-                            Text(time(dur.data ?? Duration.zero)),
+                            Text(
+                              time(
+                                s.trackDuration ?? dur.data ?? Duration.zero,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1133,7 +1140,7 @@ class SettingsPage extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          const Text('القراءات العشر • إصدار 0.2.0'),
+          const Text('القراءات العشر • إصدار 0.2.1'),
           const SizedBox(height: 24),
           const Notice(
             'فهرس الروايات والسور مضمّن في التطبيق ويعمل دون اتصال. يظهر فقط المحتوى المصنّف للرواية المختارة؛ لا تُستكمل المصاحف الناقصة بتسجيلات من رواية أخرى.',

@@ -25,6 +25,7 @@ class AppState extends ChangeNotifier {
   String? error, downloadError;
   Mushaf? current;
   int? surah;
+  Duration? trackDuration;
   String? activeDownload;
   double? progress;
   int bytesReceived = 0;
@@ -140,7 +141,12 @@ class AppState extends ChangeNotifier {
     error = null;
     notifyListeners();
     try {
-      await player.pause();
+      if (kIsWeb) {
+        await player.stop();
+      } else {
+        await player.pause();
+      }
+      trackDuration = null;
       current = m;
       surah = s;
       final local = await store.local(m.key(s));
@@ -153,7 +159,7 @@ class AppState extends ChangeNotifier {
         artist: m.reciter,
         album: m.name,
       );
-      await player.setAudioSource(
+      trackDuration = await player.setAudioSource(
         AudioSource.uri(Uri.parse(local ?? m.audioUrl(s)), tag: tag),
         initialPosition: position,
       );
@@ -206,7 +212,7 @@ class AppState extends ChangeNotifier {
   }
 
   Future<void> seekBy(int seconds) async {
-    final duration = player.duration ?? Duration.zero;
+    final duration = trackDuration ?? player.duration ?? Duration.zero;
     await player.seek(
       Duration(
         milliseconds: (player.position.inMilliseconds + seconds * 1000)
