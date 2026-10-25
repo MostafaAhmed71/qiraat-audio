@@ -1,0 +1,2742 @@
+[
+  {
+    "mushaf": 1,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-akhdar/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.369121+00:00"
+  },
+  {
+    "mushaf": 10,
+    "url": "https://cdn.mp3quran.net/audio/akram-alaqmi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.348585+00:00"
+  },
+  {
+    "mushaf": 100,
+    "url": "https://cdn.mp3quran.net/audio/majed-anazi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.400819+00:00"
+  },
+  {
+    "mushaf": 102,
+    "url": "https://cdn.mp3quran.net/audio/maher-muaiqly/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.340050+00:00"
+  },
+  {
+    "mushaf": 104,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-iraoui/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.427409+00:00"
+  },
+  {
+    "mushaf": 105,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-barrak/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.399464+00:00"
+  },
+  {
+    "mushaf": 106,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-tablawi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.395460+00:00"
+  },
+  {
+    "mushaf": 107,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-luhaidan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:18.386612+00:00"
+  },
+  {
+    "mushaf": 108,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-muhaisni/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.075884+00:00"
+  },
+  {
+    "mushaf": 320,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-ayyub/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.041695+00:00"
+  },
+  {
+    "mushaf": 109,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-ayyub/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.075459+00:00"
+  },
+  {
+    "mushaf": 110,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-shah/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.115551+00:00"
+  },
+  {
+    "mushaf": 111,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-jibreel/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.132567+00:00"
+  },
+  {
+    "mushaf": 10924,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-minshawi/r4/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.010976+00:00"
+  },
+  {
+    "mushaf": 112,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-minshawi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.000121+00:00"
+  },
+  {
+    "mushaf": 210,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-abdulkareem/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:27.071377+00:00"
+  },
+  {
+    "mushaf": 115,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-abdulkareem/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.603567+00:00"
+  },
+  {
+    "mushaf": 117,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-abdullah/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.628408+00:00"
+  },
+  {
+    "mushaf": 270,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-husary/r5/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.588607+00:00"
+  },
+  {
+    "mushaf": 269,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-husary/r4/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.569947+00:00"
+  },
+  {
+    "mushaf": 120,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-husary/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.596196+00:00"
+  },
+  {
+    "mushaf": 118,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-husary/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.594837+00:00"
+  },
+  {
+    "mushaf": 12,
+    "url": "https://cdn.mp3quran.net/audio/idrees-abkar/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.671607+00:00"
+  },
+  {
+    "mushaf": 121,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-banna/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:35.635509+00:00"
+  },
+  {
+    "mushaf": 124,
+    "url": "https://cdn.mp3quran.net/audio/mishary-alafasy/r2/012.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.733007+00:00"
+  },
+  {
+    "mushaf": 123,
+    "url": "https://cdn.mp3quran.net/audio/mishary-alafasy/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.775582+00:00"
+  },
+  {
+    "mushaf": 125,
+    "url": "https://cdn.mp3quran.net/audio/mustafa-ismail/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.754752+00:00"
+  },
+  {
+    "mushaf": 126,
+    "url": "https://cdn.mp3quran.net/audio/mustafa-lahouni/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.663635+00:00"
+  },
+  {
+    "mushaf": 127,
+    "url": "https://cdn.mp3quran.net/audio/mustafa-azzawi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.733442+00:00"
+  },
+  {
+    "mushaf": 128,
+    "url": "https://cdn.mp3quran.net/audio/muammar-za/r1/036.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.791458+00:00"
+  },
+  {
+    "mushaf": 196,
+    "url": "https://cdn.mp3quran.net/audio/muftah-saltani/r5/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.699672+00:00"
+  },
+  {
+    "mushaf": 195,
+    "url": "https://cdn.mp3quran.net/audio/muftah-saltani/r4/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:43.786884+00:00"
+  },
+  {
+    "mushaf": 182,
+    "url": "https://cdn.mp3quran.net/audio/muftah-saltani/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:51.928027+00:00"
+  },
+  {
+    "mushaf": 180,
+    "url": "https://cdn.mp3quran.net/audio/muftah-saltani/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:52.140257+00:00"
+  },
+  {
+    "mushaf": 129,
+    "url": "https://cdn.mp3quran.net/audio/muftah-saltani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:52.139843+00:00"
+  },
+  {
+    "mushaf": 13,
+    "url": "https://cdn.mp3quran.net/audio/zain-ahmad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:51.983153+00:00"
+  },
+  {
+    "mushaf": 134,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-saayed/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:51.901341+00:00"
+  },
+  {
+    "mushaf": 135,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-suwayid/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:52.027827+00:00"
+  },
+  {
+    "mushaf": 136,
+    "url": "https://cdn.mp3quran.net/audio/abdulelah-aoun/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:51.900751+00:00"
+  },
+  {
+    "mushaf": 137,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-humaid/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:52:51.951534+00:00"
+  },
+  {
+    "mushaf": 138,
+    "url": "https://cdn.mp3quran.net/audio/noreen-siddiq/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.175536+00:00"
+  },
+  {
+    "mushaf": 139,
+    "url": "https://cdn.mp3quran.net/audio/majed-zamil/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.111146+00:00"
+  },
+  {
+    "mushaf": 14,
+    "url": "https://cdn.mp3quran.net/audio/yassen-jazairi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.164217+00:00"
+  },
+  {
+    "mushaf": 149,
+    "url": "https://cdn.mp3quran.net/audio/maher-shakhashiro/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.207433+00:00"
+  },
+  {
+    "mushaf": 15,
+    "url": "https://cdn.mp3quran.net/audio/ashri-omran/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.295638+00:00"
+  },
+  {
+    "mushaf": 150,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-monshed/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.132993+00:00"
+  },
+  {
+    "mushaf": 151,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-sheimy/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.311732+00:00"
+  },
+  {
+    "mushaf": 152,
+    "url": "https://cdn.mp3quran.net/audio/yasser-salama/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:00.195539+00:00"
+  },
+  {
+    "mushaf": 153,
+    "url": "https://cdn.mp3quran.net/audio/akhil-rawa/r1/050.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.493629+00:00"
+  },
+  {
+    "mushaf": 154,
+    "url": "https://cdn.mp3quran.net/audio/zamri-abdullah/r1/032.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.463715+00:00"
+  },
+  {
+    "mushaf": 159,
+    "url": "https://cdn.mp3quran.net/audio/khalid-mohanna/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.480705+00:00"
+  },
+  {
+    "mushaf": 16,
+    "url": "https://cdn.mp3quran.net/audio/laayoun-kouchi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.455431+00:00"
+  },
+  {
+    "mushaf": 160,
+    "url": "https://cdn.mp3quran.net/audio/adel-kalbani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.599506+00:00"
+  },
+  {
+    "mushaf": 161,
+    "url": "https://cdn.mp3quran.net/audio/musa-bilal/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.541095+00:00"
+  },
+  {
+    "mushaf": 162,
+    "url": "https://cdn.mp3quran.net/audio/hussain-sheikh/r1/002.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.503624+00:00"
+  },
+  {
+    "mushaf": 163,
+    "url": "https://cdn.mp3quran.net/audio/hatem-waer/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:08.444837+00:00"
+  },
+  {
+    "mushaf": 164,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-jormy/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.586213+00:00"
+  },
+  {
+    "mushaf": 165,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-rifai/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.645924+00:00"
+  },
+  {
+    "mushaf": 166,
+    "url": "https://cdn.mp3quran.net/audio/nasser-obaid/r1/003.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.614344+00:00"
+  },
+  {
+    "mushaf": 167,
+    "url": "https://cdn.mp3quran.net/audio/wasel-methen/r1/008.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.600410+00:00"
+  },
+  {
+    "mushaf": 17,
+    "url": "https://cdn.mp3quran.net/audio/tawfeeq-sayegh/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.591460+00:00"
+  },
+  {
+    "mushaf": 232,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-dosari/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.750460+00:00"
+  },
+  {
+    "mushaf": 178,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-dosari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.531449+00:00"
+  },
+  {
+    "mushaf": 18,
+    "url": "https://cdn.mp3quran.net/audio/jamal-abdullah/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:16.541653+00:00"
+  },
+  {
+    "mushaf": 181,
+    "url": "https://cdn.mp3quran.net/audio/jamaan-osaimi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.731101+00:00"
+  },
+  {
+    "mushaf": 183,
+    "url": "https://cdn.mp3quran.net/audio/rodziah-abdulrahman/r1/003.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.771456+00:00"
+  },
+  {
+    "mushaf": 184,
+    "url": "https://cdn.mp3quran.net/audio/rogayah-sulong/r1/036.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.714226+00:00"
+  },
+  {
+    "mushaf": 185,
+    "url": "https://cdn.mp3quran.net/audio/sapinah-mamat/r1/003.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.827600+00:00"
+  },
+  {
+    "mushaf": 187,
+    "url": "https://cdn.mp3quran.net/audio/saidin-abdulrahman/r1/017.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.690714+00:00"
+  },
+  {
+    "mushaf": 188,
+    "url": "https://cdn.mp3quran.net/audio/abdulghani-abdullah/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.887554+00:00"
+  },
+  {
+    "mushaf": 189,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-fahmi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.939626+00:00"
+  },
+  {
+    "mushaf": 19,
+    "url": "https://cdn.mp3quran.net/audio/hamad-daghriri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:24.762264+00:00"
+  },
+  {
+    "mushaf": 190,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-hafiz/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.971548+00:00"
+  },
+  {
+    "mushaf": 191,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-ali/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:33.240668+00:00"
+  },
+  {
+    "mushaf": 192,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-anuar/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:33.063214+00:00"
+  },
+  {
+    "mushaf": 193,
+    "url": "https://cdn.mp3quran.net/audio/yousef-ahmad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.860136+00:00"
+  },
+  {
+    "mushaf": 194,
+    "url": "https://cdn.mp3quran.net/audio/jamaluddin-zailai/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.963457+00:00"
+  },
+  {
+    "mushaf": 197,
+    "url": "https://cdn.mp3quran.net/audio/moeedh-harthi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.961988+00:00"
+  },
+  {
+    "mushaf": 198,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-shareef/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.892516+00:00"
+  },
+  {
+    "mushaf": 2,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-jibreen/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:32.893038+00:00"
+  },
+  {
+    "mushaf": 20,
+    "url": "https://cdn.mp3quran.net/audio/khalid-jalil/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.009431+00:00"
+  },
+  {
+    "mushaf": 201,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-tarabulsi/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.024732+00:00"
+  },
+  {
+    "mushaf": 199,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-tarabulsi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.213619+00:00"
+  },
+  {
+    "mushaf": 202,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-kandari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.039961+00:00"
+  },
+  {
+    "mushaf": 203,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-amer/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.044520+00:00"
+  },
+  {
+    "mushaf": 204,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-saadan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.323412+00:00"
+  },
+  {
+    "mushaf": 205,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-hudhaifi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.081780+00:00"
+  },
+  {
+    "mushaf": 206,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-khan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:41.195930+00:00"
+  },
+  {
+    "mushaf": 207,
+    "url": "https://cdn.mp3quran.net/audio/youssef-edghouch/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.086317+00:00"
+  },
+  {
+    "mushaf": 208,
+    "url": "https://cdn.mp3quran.net/audio/dokali-alim/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.115662+00:00"
+  },
+  {
+    "mushaf": 209,
+    "url": "https://cdn.mp3quran.net/audio/wishear-arbili/r1/055.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.111502+00:00"
+  },
+  {
+    "mushaf": 21,
+    "url": "https://cdn.mp3quran.net/audio/khalid-qahtani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:44.990432+00:00"
+  },
+  {
+    "mushaf": 211,
+    "url": "https://cdn.mp3quran.net/audio/fateh-zubair/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.335622+00:00"
+  },
+  {
+    "mushaf": 10914,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-qarafi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.027887+00:00"
+  },
+  {
+    "mushaf": 10915,
+    "url": "https://cdn.mp3quran.net/audio/abdulbadi-ghailan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.101866+00:00"
+  },
+  {
+    "mushaf": 340,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-burhaji/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:45.141597+00:00"
+  },
+  {
+    "mushaf": 10904,
+    "url": "https://cdn.mp3quran.net/audio/yousef-aidarous/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.611499+00:00"
+  },
+  {
+    "mushaf": 10905,
+    "url": "https://cdn.mp3quran.net/audio/hassan-daghriri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.751646+00:00"
+  },
+  {
+    "mushaf": 10906,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-faqih/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.586649+00:00"
+  },
+  {
+    "mushaf": 10908,
+    "url": "https://cdn.mp3quran.net/audio/junaid-abdullah/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.827928+00:00"
+  },
+  {
+    "mushaf": 10909,
+    "url": "https://cdn.mp3quran.net/audio/khalid-ziyadi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.645039+00:00"
+  },
+  {
+    "mushaf": 10910,
+    "url": "https://cdn.mp3quran.net/audio/waleed-shamsan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.603236+00:00"
+  },
+  {
+    "mushaf": 10911,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-shahri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.843639+00:00"
+  },
+  {
+    "mushaf": 10913,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-badr/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:48.643309+00:00"
+  },
+  {
+    "mushaf": 10917,
+    "url": "https://cdn.mp3quran.net/audio/alijon-hamdan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.944500+00:00"
+  },
+  {
+    "mushaf": 10918,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-zubaidi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.743653+00:00"
+  },
+  {
+    "mushaf": 10920,
+    "url": "https://cdn.mp3quran.net/audio/abdelmoujib-benkirane/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.714442+00:00"
+  },
+  {
+    "mushaf": 212,
+    "url": "https://cdn.mp3quran.net/audio/tareq-daawob/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.812355+00:00"
+  },
+  {
+    "mushaf": 10921,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-dibirov/r1/002.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.783569+00:00"
+  },
+  {
+    "mushaf": 10922,
+    "url": "https://cdn.mp3quran.net/audio/asim-luhaidan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.660497+00:00"
+  },
+  {
+    "mushaf": 10923,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-harfoush/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.714867+00:00"
+  },
+  {
+    "mushaf": 10925,
+    "url": "https://server15.mp3quran.net/a-rushdi/Almusshaf-Al-Mo-lim/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:54.483698+00:00"
+  },
+  {
+    "mushaf": 216,
+    "url": "https://cdn.mp3quran.net/audio/othman-ansari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:53:56.819512+00:00"
+  },
+  {
+    "mushaf": 217,
+    "url": "https://cdn.mp3quran.net/audio/bandar-baleela/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.967623+00:00"
+  },
+  {
+    "mushaf": 218,
+    "url": "https://cdn.mp3quran.net/audio/khalid-shuraimi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.865651+00:00"
+  },
+  {
+    "mushaf": 219,
+    "url": "https://cdn.mp3quran.net/audio/wadee-yamani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:05.031609+00:00"
+  },
+  {
+    "mushaf": 22,
+    "url": "https://cdn.mp3quran.net/audio/khalid-abdulkafi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.971555+00:00"
+  },
+  {
+    "mushaf": 221,
+    "url": "https://cdn.mp3quran.net/audio/raad-kurdi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.943554+00:00"
+  },
+  {
+    "mushaf": 225,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-oosi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.911666+00:00"
+  },
+  {
+    "mushaf": 226,
+    "url": "https://cdn.mp3quran.net/audio/khalid-ghamdi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.919044+00:00"
+  },
+  {
+    "mushaf": 227,
+    "url": "https://cdn.mp3quran.net/audio/ramadan-shakoor/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:04.887741+00:00"
+  },
+  {
+    "mushaf": 228,
+    "url": "https://cdn.mp3quran.net/audio/abdulmajeed-arkani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.016277+00:00"
+  },
+  {
+    "mushaf": 229,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-khalil/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.001597+00:00"
+  },
+  {
+    "mushaf": 23,
+    "url": "https://cdn.mp3quran.net/audio/khalid-wahaibi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.039532+00:00"
+  },
+  {
+    "mushaf": 230,
+    "url": "https://cdn.mp3quran.net/audio/rami-duais/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.000422+00:00"
+  },
+  {
+    "mushaf": 231,
+    "url": "https://cdn.mp3quran.net/audio/hazza-balushi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:12.975188+00:00"
+  },
+  {
+    "mushaf": 236,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-majed/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.040134+00:00"
+  },
+  {
+    "mushaf": 287,
+    "url": "https://cdn.mp3quran.net/audio/marwan-akri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.067528+00:00"
+  },
+  {
+    "mushaf": 24,
+    "url": "https://cdn.mp3quran.net/audio/khalifa-tunaiji/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:13.025582+00:00"
+  },
+  {
+    "mushaf": 240,
+    "url": "https://cdn.mp3quran.net/audio/salman-otaibi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.622152+00:00"
+  },
+  {
+    "mushaf": 241,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-refaat/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.707585+00:00"
+  },
+  {
+    "mushaf": 243,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-mousa/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.711809+00:00"
+  },
+  {
+    "mushaf": 244,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-khalaf/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.651667+00:00"
+  },
+  {
+    "mushaf": 245,
+    "url": "https://cdn.mp3quran.net/audio/mansour-salimi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.732573+00:00"
+  },
+  {
+    "mushaf": 246,
+    "url": "https://cdn.mp3quran.net/audio/salah-musalli/r1/050.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.609234+00:00"
+  },
+  {
+    "mushaf": 247,
+    "url": "https://cdn.mp3quran.net/audio/khalid-sharekh/r1/002.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.790758+00:00"
+  },
+  {
+    "mushaf": 248,
+    "url": "https://cdn.mp3quran.net/audio/nasser-asfour/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:21.597593+00:00"
+  },
+  {
+    "mushaf": 25,
+    "url": "https://cdn.mp3quran.net/audio/dawood-hamza/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.859097+00:00"
+  },
+  {
+    "mushaf": 250,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-bukhait/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:30.014314+00:00"
+  },
+  {
+    "mushaf": 251,
+    "url": "https://cdn.mp3quran.net/audio/nasser-majed/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.878117+00:00"
+  },
+  {
+    "mushaf": 252,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-suwailem/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.879412+00:00"
+  },
+  {
+    "mushaf": 253,
+    "url": "https://cdn.mp3quran.net/audio/islam-sobhi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:30.027618+00:00"
+  },
+  {
+    "mushaf": 254,
+    "url": "https://cdn.mp3quran.net/audio/badr-turki/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.779761+00:00"
+  },
+  {
+    "mushaf": 255,
+    "url": "https://cdn.mp3quran.net/audio/haitham-jadani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.846261+00:00"
+  },
+  {
+    "mushaf": 256,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-shaheen/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:29.871463+00:00"
+  },
+  {
+    "mushaf": 257,
+    "url": "https://cdn.mp3quran.net/audio/saad-muqrin/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.931022+00:00"
+  },
+  {
+    "mushaf": 259,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-nufais/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.911038+00:00"
+  },
+  {
+    "mushaf": 26,
+    "url": "https://cdn.mp3quran.net/audio/rachid-ifrad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:38.071410+00:00"
+  },
+  {
+    "mushaf": 260,
+    "url": "https://cdn.mp3quran.net/audio/omar-duraiwiz/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.971035+00:00"
+  },
+  {
+    "mushaf": 263,
+    "url": "https://cdn.mp3quran.net/audio/abdulaziz-asiri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:38.114505+00:00"
+  },
+  {
+    "mushaf": 264,
+    "url": "https://cdn.mp3quran.net/audio/younes-souilass/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.983577+00:00"
+  },
+  {
+    "mushaf": 313,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r13/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.912164+00:00"
+  },
+  {
+    "mushaf": 312,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r12/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:37.971965+00:00"
+  },
+  {
+    "mushaf": 311,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r11/094.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:46.211560+00:00"
+  },
+  {
+    "mushaf": 310,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r10/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.995506+00:00"
+  },
+  {
+    "mushaf": 309,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r9/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.979549+00:00"
+  },
+  {
+    "mushaf": 308,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r8/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.964608+00:00"
+  },
+  {
+    "mushaf": 301,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r7/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.981456+00:00"
+  },
+  {
+    "mushaf": 285,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r6/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.923315+00:00"
+  },
+  {
+    "mushaf": 280,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r5/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:46.047633+00:00"
+  },
+  {
+    "mushaf": 279,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r4/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:45.975782+00:00"
+  },
+  {
+    "mushaf": 278,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.153852+00:00"
+  },
+  {
+    "mushaf": 276,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.143431+00:00"
+  },
+  {
+    "mushaf": 265,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-deeban/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.118736+00:00"
+  },
+  {
+    "mushaf": 267,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-kamel/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.138192+00:00"
+  },
+  {
+    "mushaf": 268,
+    "url": "https://cdn.mp3quran.net/audio/peshawa-kurdi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.184598+00:00"
+  },
+  {
+    "mushaf": 261,
+    "url": "https://cdn.mp3quran.net/audio/rachid-belalia/r2/046.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.307618+00:00"
+  },
+  {
+    "mushaf": 27,
+    "url": "https://cdn.mp3quran.net/audio/rachid-belalia/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.128055+00:00"
+  },
+  {
+    "mushaf": 271,
+    "url": "https://cdn.mp3quran.net/audio/nadhir-maliki/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:54.231622+00:00"
+  },
+  {
+    "mushaf": 296,
+    "url": "https://cdn.mp3quran.net/audio/okasha-kameny/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.146665+00:00"
+  },
+  {
+    "mushaf": 272,
+    "url": "https://cdn.mp3quran.net/audio/okasha-kameny/r1/017.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.411585+00:00"
+  },
+  {
+    "mushaf": 273,
+    "url": "https://cdn.mp3quran.net/audio/haitham-dukhain/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.208659+00:00"
+  },
+  {
+    "mushaf": 274,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-abusnaina/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.168317+00:00"
+  },
+  {
+    "mushaf": 275,
+    "url": "https://cdn.mp3quran.net/audio/muhammad-qeniwa/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.403754+00:00"
+  },
+  {
+    "mushaf": 277,
+    "url": "https://cdn.mp3quran.net/audio/mahmoud-abdulhakam/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.419502+00:00"
+  },
+  {
+    "mushaf": 289,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-masarawi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.166328+00:00"
+  },
+  {
+    "mushaf": 291,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-kshidan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:54:58.263641+00:00"
+  },
+  {
+    "mushaf": 28,
+    "url": "https://cdn.mp3quran.net/audio/zakaria-hamama/r1/032.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.894845+00:00"
+  },
+  {
+    "mushaf": 292,
+    "url": "https://cdn.mp3quran.net/audio/hashim-abudalal/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.954797+00:00"
+  },
+  {
+    "mushaf": 293,
+    "url": "https://cdn.mp3quran.net/audio/fouad-khamiri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.901673+00:00"
+  },
+  {
+    "mushaf": 294,
+    "url": "https://cdn.mp3quran.net/audio/sayed-hashemi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.983473+00:00"
+  },
+  {
+    "mushaf": 295,
+    "url": "https://cdn.mp3quran.net/audio/khalid-mohammadi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.924113+00:00"
+  },
+  {
+    "mushaf": 297,
+    "url": "https://cdn.mp3quran.net/audio/malallah-jaber/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.900513+00:00"
+  },
+  {
+    "mushaf": 298,
+    "url": "https://cdn.mp3quran.net/audio/salman-siddiq/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.883017+00:00"
+  },
+  {
+    "mushaf": 299,
+    "url": "https://cdn.mp3quran.net/audio/hassan-saleh/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:00.979512+00:00"
+  },
+  {
+    "mushaf": 302,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-shahat/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.774223+00:00"
+  },
+  {
+    "mushaf": 303,
+    "url": "https://cdn.mp3quran.net/audio/issa-sanankoua/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.807062+00:00"
+  },
+  {
+    "mushaf": 304,
+    "url": "https://cdn.mp3quran.net/audio/haroon-baqai/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.721933+00:00"
+  },
+  {
+    "mushaf": 281,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-bukhari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.776687+00:00"
+  },
+  {
+    "mushaf": 306,
+    "url": "https://cdn.mp3quran.net/audio/saleh-quraishi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.823953+00:00"
+  },
+  {
+    "mushaf": 3,
+    "url": "https://cdn.mp3quran.net/audio/ibrahim-asiri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.990599+00:00"
+  },
+  {
+    "mushaf": 30,
+    "url": "https://cdn.mp3quran.net/audio/saad-ghamdi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.777534+00:00"
+  },
+  {
+    "mushaf": 300,
+    "url": "https://cdn.mp3quran.net/audio/saleh-shamrani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:05.736253+00:00"
+  },
+  {
+    "mushaf": 307,
+    "url": "https://cdn.mp3quran.net/audio/faisal-hajri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:14.035590+00:00"
+  },
+  {
+    "mushaf": 314,
+    "url": "https://cdn.mp3quran.net/audio/anas-emadi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:13.913649+00:00"
+  },
+  {
+    "mushaf": 315,
+    "url": "https://cdn.mp3quran.net/audio/abdulmalik-askar/r1/030.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:14.063662+00:00"
+  },
+  {
+    "mushaf": 316,
+    "url": "https://cdn.mp3quran.net/audio/abdulkareem-hazmi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:14.127746+00:00"
+  },
+  {
+    "mushaf": 317,
+    "url": "https://cdn.mp3quran.net/audio/hicham-lharraz/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:13.992312+00:00"
+  },
+  {
+    "mushaf": 318,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-mishal/r1/008.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:13.912858+00:00"
+  },
+  {
+    "mushaf": 319,
+    "url": "https://cdn.mp3quran.net/audio/abdelaziz-sheim/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:13.941835+00:00"
+  },
+  {
+    "mushaf": 31,
+    "url": "https://cdn.mp3quran.net/audio/saud-shuraim/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:13.974046+00:00"
+  },
+  {
+    "mushaf": 32,
+    "url": "https://cdn.mp3quran.net/audio/sahl-yassin/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.252781+00:00"
+  },
+  {
+    "mushaf": 33,
+    "url": "https://cdn.mp3quran.net/audio/zaki-daghistani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.206219+00:00"
+  },
+  {
+    "mushaf": 34,
+    "url": "https://cdn.mp3quran.net/audio/sami-hassan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.447674+00:00"
+  },
+  {
+    "mushaf": 35,
+    "url": "https://cdn.mp3quran.net/audio/sami-dosari/r1/002.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.488189+00:00"
+  },
+  {
+    "mushaf": 36,
+    "url": "https://cdn.mp3quran.net/audio/sayed-ramadan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.290354+00:00"
+  },
+  {
+    "mushaf": 37,
+    "url": "https://cdn.mp3quran.net/audio/shaban-sayyad/r1/002.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.237190+00:00"
+  },
+  {
+    "mushaf": 38,
+    "url": "https://cdn.mp3quran.net/audio/shirzad-taher/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.211655+00:00"
+  },
+  {
+    "mushaf": 39,
+    "url": "https://cdn.mp3quran.net/audio/saber-abdulhakam/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:20.273702+00:00"
+  },
+  {
+    "mushaf": 4,
+    "url": "https://cdn.mp3quran.net/audio/abubakr-shatri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.565424+00:00"
+  },
+  {
+    "mushaf": 40,
+    "url": "https://cdn.mp3quran.net/audio/saleh-sahood/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.355969+00:00"
+  },
+  {
+    "mushaf": 41,
+    "url": "https://cdn.mp3quran.net/audio/saleh-talib/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.559611+00:00"
+  },
+  {
+    "mushaf": 42,
+    "url": "https://cdn.mp3quran.net/audio/saleh-habdan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.339529+00:00"
+  },
+  {
+    "mushaf": 43,
+    "url": "https://cdn.mp3quran.net/audio/salah-budair/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.464831+00:00"
+  },
+  {
+    "mushaf": 45,
+    "url": "https://cdn.mp3quran.net/audio/salah-hashim/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.548600+00:00"
+  },
+  {
+    "mushaf": 44,
+    "url": "https://cdn.mp3quran.net/audio/salah-hashim/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.569603+00:00"
+  },
+  {
+    "mushaf": 46,
+    "url": "https://cdn.mp3quran.net/audio/salah-bukhatir/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:28.339874+00:00"
+  },
+  {
+    "mushaf": 283,
+    "url": "https://cdn.mp3quran.net/audio/mukhtar-haj/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.607622+00:00"
+  },
+  {
+    "mushaf": 48,
+    "url": "https://cdn.mp3quran.net/audio/adel-rayyan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.519589+00:00"
+  },
+  {
+    "mushaf": 49,
+    "url": "https://cdn.mp3quran.net/audio/abdulbari-thubaiti/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.586962+00:00"
+  },
+  {
+    "mushaf": 5,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-ajmi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.609648+00:00"
+  },
+  {
+    "mushaf": 50,
+    "url": "https://cdn.mp3quran.net/audio/abdulbari-muhammad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.560675+00:00"
+  },
+  {
+    "mushaf": 53,
+    "url": "https://cdn.mp3quran.net/audio/abdulbasit-abdulsamad/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.631854+00:00"
+  },
+  {
+    "mushaf": 52,
+    "url": "https://cdn.mp3quran.net/audio/abdulbasit-abdulsamad/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.726147+00:00"
+  },
+  {
+    "mushaf": 54,
+    "url": "https://cdn.mp3quran.net/audio/abdulrahman-sudais/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:36.575627+00:00"
+  },
+  {
+    "mushaf": 55,
+    "url": "https://cdn.mp3quran.net/audio/abdulaziz-ahmad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:42.947791+00:00"
+  },
+  {
+    "mushaf": 56,
+    "url": "https://cdn.mp3quran.net/audio/abdulaziz-zahrani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:42.965647+00:00"
+  },
+  {
+    "mushaf": 57,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-buraimi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:43.135613+00:00"
+  },
+  {
+    "mushaf": 58,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-buaijan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:43.040146+00:00"
+  },
+  {
+    "mushaf": 59,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-matrood/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:43.006476+00:00"
+  },
+  {
+    "mushaf": 6,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-hawashi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:42.992239+00:00"
+  },
+  {
+    "mushaf": 60,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-basfar/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:42.928701+00:00"
+  },
+  {
+    "mushaf": 61,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-khayyat/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:42.905695+00:00"
+  },
+  {
+    "mushaf": 62,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-juhani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.469914+00:00"
+  },
+  {
+    "mushaf": 63,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-ghailan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.101205+00:00"
+  },
+  {
+    "mushaf": 258,
+    "url": "https://cdn.mp3quran.net/audio/abdulrasheed-sufi/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.161164+00:00"
+  },
+  {
+    "mushaf": 65,
+    "url": "https://cdn.mp3quran.net/audio/abdulrasheed-sufi/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.061442+00:00"
+  },
+  {
+    "mushaf": 64,
+    "url": "https://cdn.mp3quran.net/audio/abdulrasheed-sufi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.112129+00:00"
+  },
+  {
+    "mushaf": 66,
+    "url": "https://cdn.mp3quran.net/audio/abdulmohsen-harthi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.070570+00:00"
+  },
+  {
+    "mushaf": 67,
+    "url": "https://cdn.mp3quran.net/audio/abdulmohsen-qasim/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.111717+00:00"
+  },
+  {
+    "mushaf": 68,
+    "url": "https://cdn.mp3quran.net/audio/abdulmohsen-askar/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:51.205738+00:00"
+  },
+  {
+    "mushaf": 69,
+    "url": "https://cdn.mp3quran.net/audio/abdulmohsen-obaikan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.278239+00:00"
+  },
+  {
+    "mushaf": 7,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-saud/r1/085.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.289966+00:00"
+  },
+  {
+    "mushaf": 70,
+    "url": "https://cdn.mp3quran.net/audio/abdulhadi-kanakeri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.291425+00:00"
+  },
+  {
+    "mushaf": 71,
+    "url": "https://cdn.mp3quran.net/audio/abdulwadood-haneef/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.412511+00:00"
+  },
+  {
+    "mushaf": 72,
+    "url": "https://cdn.mp3quran.net/audio/abdulwali-arkani/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.303810+00:00"
+  },
+  {
+    "mushaf": 73,
+    "url": "https://cdn.mp3quran.net/audio/ali-abuhashim/r1/011.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.220591+00:00"
+  },
+  {
+    "mushaf": 305,
+    "url": "https://cdn.mp3quran.net/audio/ali-hudhaifi/r3/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.303561+00:00"
+  },
+  {
+    "mushaf": 75,
+    "url": "https://cdn.mp3quran.net/audio/ali-hudhaifi/r2/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:55:59.481345+00:00"
+  },
+  {
+    "mushaf": 74,
+    "url": "https://cdn.mp3quran.net/audio/ali-hudhaifi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.611615+00:00"
+  },
+  {
+    "mushaf": 76,
+    "url": "https://cdn.mp3quran.net/audio/ali-jaber/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.663576+00:00"
+  },
+  {
+    "mushaf": 77,
+    "url": "https://cdn.mp3quran.net/audio/ali-souissi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.543522+00:00"
+  },
+  {
+    "mushaf": 78,
+    "url": "https://cdn.mp3quran.net/audio/imad-hafez/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.535572+00:00"
+  },
+  {
+    "mushaf": 282,
+    "url": "https://cdn.mp3quran.net/audio/abdulaziz-turki/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.544701+00:00"
+  },
+  {
+    "mushaf": 8,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-saber/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.591635+00:00"
+  },
+  {
+    "mushaf": 80,
+    "url": "https://cdn.mp3quran.net/audio/omar-kazabri/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.701816+00:00"
+  },
+  {
+    "mushaf": 81,
+    "url": "https://cdn.mp3quran.net/audio/fares-abbad/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:07.620959+00:00"
+  },
+  {
+    "mushaf": 82,
+    "url": "https://cdn.mp3quran.net/audio/fahad-otaibi/r1/050.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.739592+00:00"
+  },
+  {
+    "mushaf": 83,
+    "url": "https://cdn.mp3quran.net/audio/fahad-kandari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.685547+00:00"
+  },
+  {
+    "mushaf": 84,
+    "url": "https://cdn.mp3quran.net/audio/fawaz-kaabi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.871573+00:00"
+  },
+  {
+    "mushaf": 85,
+    "url": "https://cdn.mp3quran.net/audio/lafi-oni/r1/003.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.670115+00:00"
+  },
+  {
+    "mushaf": 86,
+    "url": "https://cdn.mp3quran.net/audio/nasser-qatami/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.677100+00:00"
+  },
+  {
+    "mushaf": 87,
+    "url": "https://cdn.mp3quran.net/audio/nabil-rifai/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.666361+00:00"
+  },
+  {
+    "mushaf": 88,
+    "url": "https://cdn.mp3quran.net/audio/neama-hassan/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.581279+00:00"
+  },
+  {
+    "mushaf": 89,
+    "url": "https://cdn.mp3quran.net/audio/hani-rifai/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:15.692926+00:00"
+  },
+  {
+    "mushaf": 9,
+    "url": "https://cdn.mp3quran.net/audio/ahmad-naina/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.863463+00:00"
+  },
+  {
+    "mushaf": 90,
+    "url": "https://cdn.mp3quran.net/audio/waleed-dulaimi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:24.123620+00:00"
+  },
+  {
+    "mushaf": 91,
+    "url": "https://cdn.mp3quran.net/audio/waleed-naehi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.855585+00:00"
+  },
+  {
+    "mushaf": 92,
+    "url": "https://cdn.mp3quran.net/audio/yasser-dosari/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.820103+00:00"
+  },
+  {
+    "mushaf": 93,
+    "url": "https://cdn.mp3quran.net/audio/yasser-qurashi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.806719+00:00"
+  },
+  {
+    "mushaf": 94,
+    "url": "https://cdn.mp3quran.net/audio/yasser-faylakawi/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.949762+00:00"
+  },
+  {
+    "mushaf": 96,
+    "url": "https://cdn.mp3quran.net/audio/yahya-hawwa/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.828752+00:00"
+  },
+  {
+    "mushaf": 97,
+    "url": "https://cdn.mp3quran.net/audio/yousef-shoaey/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:23.995677+00:00"
+  },
+  {
+    "mushaf": 284,
+    "url": "https://cdn.mp3quran.net/audio/abdullah-abdal/r1/001.mp3",
+    "status": 206,
+    "bytes": 1024,
+    "contentType": "audio/mpeg",
+    "cors": "*",
+    "acceptRanges": null,
+    "checkedAt": "2026-10-25T00:56:28.615955+00:00"
+  }
+]

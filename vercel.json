@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "bash tool/vercel-build.sh",
+  "outputDirectory": "build/web",
+  "installCommand": "true",
+  "headers": [
+    {"source":"/sw.js","headers":[{"key":"Cache-Control","value":"no-cache"}]},
+    {"source":"/index.html","headers":[{"key":"Cache-Control","value":"no-cache"}]}
+  ]
+}

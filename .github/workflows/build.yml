@@ -1,0 +1,106 @@
+name: Validate and build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      signed:
+        type: boolean
+        default: false
+    secrets:
+      ANDROID_KEYSTORE_BASE64:
+        required: false
+      ANDROID_STORE_PASSWORD:
+        required: false
+      ANDROID_KEY_PASSWORD:
+        required: false
+      ANDROID_KEY_ALIAS:
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install pinned Flutter
+        run: |
+          git clone --depth 1 --branch 3.35.4 https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          test "$(git -C "$RUNNER_TEMP/flutter" rev-parse HEAD)" = "d693b4b9dbac2acd4477aea4555ca6dcbea44ba2"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+      - name: Resolve packages
+        run: flutter pub get
+        env:
+          FLUTTER_SUPPRESS_ANALYTICS: 'true'
+      - name: Analyze
+        run: flutter analyze
+      - name: Tests
+        run: flutter test
+      - name: Configure production signing
+        if: ${{ inputs.signed == true }}
+        env:
+          KEYSTORE_DATA: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+        run: |
+          python3 - <<'PY'
+          import os,base64,pathlib
+          required=['KEYSTORE_DATA','STORE_PASSWORD','KEY_PASSWORD','KEY_ALIAS']
+          if any(not os.environ.get(k) for k in required):
+              raise SystemExit('Production signing secrets are required for a tagged release')
+          key=pathlib.Path(os.environ['RUNNER_TEMP'])/'qiraat-release.jks'
+          key.write_bytes(base64.b64decode(os.environ['KEYSTORE_DATA'],validate=True))
+          key.chmod(0o600)
+          def escape(s):
+              return s.replace('\\','\\\\').replace('\n','\\n').replace('\r','\\r').replace('=','\\=').replace(':','\\:')
+          values={'storeFile':str(key),'storePassword':os.environ['STORE_PASSWORD'],'keyPassword':os.environ['KEY_PASSWORD'],'keyAlias':os.environ['KEY_ALIAS']}
+          prop=pathlib.Path('android/key.properties')
+          prop.write_text('\n'.join(k+'='+escape(v) for k,v in values.items()))
+          prop.chmod(0o600)
+          PY
+      - name: Build Android release mode
+        run: flutter build apk --release
+      - name: Build Web with local renderer
+        run: flutter build web --release --no-web-resources-cdn --pwa-strategy=none
+      - name: Prepare artifacts
+        run: |
+          python3 tool/pwa.py
+          mkdir -p dist
+          cp build/app/outputs/flutter-apk/app-release.apk dist/qiraat-audio-android.apk
+          cd build/web
+          zip -qr ../../dist/qiraat-audio-web.zip .
+      - name: Artifact signing note
+        run: |
+          if [ "${{ inputs.signed }}" = "true" ]; then
+            echo 'Signed with configured production key.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'PREVIEW APK: release mode, DEBUG SIGNING KEY. Not a production distribution build; future keys may require uninstalling this APK.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: qiraat-audio-android.apk
+          path: dist/qiraat-audio-android.apk
+          if-no-files-found: error
+          retention-days: 30
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: qiraat-audio-web.zip
+          path: dist/qiraat-audio-web.zip
+          if-no-files-found: error
+          retention-days: 30
+      - name: Remove signing material
+        if: always()
+        run: |
+          rm -f android/key.properties "$RUNNER_TEMP/qiraat-release.jks"

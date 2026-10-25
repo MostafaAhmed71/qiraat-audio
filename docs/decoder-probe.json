@@ -1,0 +1,19 @@
+{
+  "programs": [],
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "22050",
+      "channels": 2
+    },
+    {
+      "codec_name": "png"
+    }
+  ],
+  "format": {
+    "format_name": "mp3",
+    "duration": "61.121667",
+    "size": "375643"
+  },
+  "source": "https://cdn.mp3quran.net/audio/ibrahim-akhdar/r1/001.mp3"
+}
