@@ -1,6 +1,8 @@
 # Qiraat Audio — القراءات العشر
 
-تطبيق Flutter عربي RTL للصوتيات فقط. **حالة الحزمة: مصدر قيد التحقق؛ لم يُبنَ أو يُنشر بعد.**
+تطبيق Flutter عربي RTL للصوتيات فقط. **نسخة تجريبية منشورة:** https://qiraat-audio.vercel.app/
+
+المستودع Public بموافقة صاحب المشروع. راجع تقرير التحقق لتمييز الاختبارات المنفذة عن اختبارات الأجهزة الفعلية غير المنفذة.
 
 ## المنجز في المصدر
 
@@ -21,7 +23,7 @@
 
 ## بيئة التطوير وCI
 
-Flutter 3.35.4 (commit d693b4b9dbac2acd4477aea4555ca6dcbea44ba2)، Java 17، Gradle 8.12، AGP 8.9.1، Kotlin 2.1.0. التبعيات المباشرة مثبتة في pubspec.yaml. يجب إنشاء pubspec.lock واعتماده بعد أول pub get ناجح قبل اعتبار البناء قابلاً لإعادة الإنتاج بالكامل.
+Flutter 3.35.4 (commit d693b4b9dbac2acd4477aea4555ca6dcbea44ba2)، Java 17، Gradle 8.12، AGP 8.9.1، Kotlin 2.1.0. التبعيات المباشرة مثبتة في pubspec.yaml. يحفظ CI ملف pubspec.lock المحلول كـ Artifact باسم qiraat-audio-dependency-lock لاعتماده في المستودع بعد التحقق.
 
 ```sh
 flutter pub get
@@ -34,7 +36,7 @@ python3 tool/pwa.py
 
 هذه الأوامر مخصصة لمشغّل السحابة وCI، ولا يُطلب من صاحب المشروع تشغيلها محليًا.
 
-Vercel: ملف vercel.json يبني من المصدر عبر tool/vercel-build.sh؛ ربط GitHub وVercel لم يتم بعد. يستخدم GoRouter عناوين hash الافتراضية لتجنب مشاكل المسارات. لـ GitHub Pages يلزم البناء بـ --base-href /qiraat-audio/ ثم تشغيل tool/pwa.py؛ نشر Pages من مستودع خاص يعتمد على خطة الحساب ولا يتم تحويل المستودع إلى عام تلقائيًا.
+Vercel: ملف vercel.json يبني من المصدر عبر tool/vercel-build.sh؛ تم إنشاء مشروع Vercel ونشر أول نسخة من مصدر GitHub. يستخدم GoRouter عناوين hash الافتراضية لتجنب مشاكل المسارات. لـ GitHub Pages يلزم البناء بـ --base-href /qiraat-audio/ ثم تشغيل tool/pwa.py؛ نشر Pages من مستودع خاص يعتمد على خطة الحساب ولا يتم تحويل المستودع إلى عام تلقائيًا.
 
 ## التثبيت عند نجاح البناء والنشر
 

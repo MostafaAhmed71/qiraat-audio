@@ -2,6 +2,9 @@ name: Validate and build
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - docs/**
+      - README.md
   workflow_dispatch:
   workflow_call:
     inputs:
@@ -100,6 +103,13 @@ jobs:
           path: dist/qiraat-audio-web.zip
           if-no-files-found: error
           retention-days: 30
+      - name: Preserve resolved dependency versions
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: qiraat-audio-dependency-lock
+          path: pubspec.lock
+          if-no-files-found: ignore
       - name: Remove signing material
         if: always()
         run: |
