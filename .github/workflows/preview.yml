@@ -1,0 +1,45 @@
+name: Publish preview APK
+on:
+  workflow_run:
+    workflows: ["Validate and build"]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Download and publish the tested preview APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_SHA: ${{ github.event.workflow_run.head_sha }}
+          SOURCE_RUN_ID: ${{ github.event.workflow_run.id }}
+          SOURCE_RUN_NUMBER: ${{ github.event.workflow_run.run_number }}
+        run: |
+          set -euo pipefail
+          gh run download "$SOURCE_RUN_ID" --repo "$GITHUB_REPOSITORY" --name qiraat-audio-android.apk --dir release
+          test -s release/qiraat-audio-android.apk
+          python3 - <<'PY'
+          import os,pathlib
+          text = ("نسخة تجريبية مبنية من التزام اجتاز التحليل والاختبارات وبناء أندرويد والويب.\n\n"
+                  "تنبيه: APK بوضع Release لكنه موقّع بمفتاح Debug مؤقت، وليس إصدار نشر نهائي. "
+                  "قد يلزم حذف النسخة السابقة إذا تغير المفتاح.\n\n"
+                  "Commit: " + os.environ["SOURCE_SHA"] + "\n"
+                  "Build: https://github.com/" + os.environ["GITHUB_REPOSITORY"] + "/actions/runs/" + os.environ["SOURCE_RUN_ID"] + "\n"
+                  "Web: https://qiraat-audio.vercel.app/\n")
+          pathlib.Path("release/notes.md").write_text(text)
+          PY
+          release_tag="preview-$SOURCE_RUN_NUMBER"
+          if gh release view "$release_tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$release_tag" release/qiraat-audio-android.apk --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create "$release_tag" release/qiraat-audio-android.apk --repo "$GITHUB_REPOSITORY" --target "$SOURCE_SHA" --prerelease --title "Qiraat Audio — Preview build $SOURCE_RUN_NUMBER" --notes-file release/notes.md
+          fi
+          gh release view "$release_tag" --repo "$GITHUB_REPOSITORY" --json url --jq .url >> "$GITHUB_STEP_SUMMARY"
