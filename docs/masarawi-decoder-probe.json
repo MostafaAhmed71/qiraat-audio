@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nquran.com/audiof/quran/ahmedmesarawi/khalad_hamzah/051.mp3",
+  "result": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "mp3"
+      },
+      {
+        "codec_name": "mjpeg"
+      }
+    ],
+    "format": {
+      "format_name": "mp3",
+      "duration": "523.919813"
+    }
+  }
+}

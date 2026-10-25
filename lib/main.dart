@@ -374,6 +374,22 @@ class HomePage extends StatelessWidget {
             style: const TextStyle(color: green, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 16),
+          if (c.mushafs
+                  .where((m) => m.reciterId == 278)
+                  .map((m) => m.riwaya)
+                  .toSet()
+                  .length ==
+              20)
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.headphones, color: green),
+                title: const Text('الشيخ أحمد عيسى المعصراوي'),
+                subtitle: const Text(
+                  'متاح في الروايات العشرين • ستجده أول قائمة القراء. معظم الروايات تضم ٦٤ سورة، وحفص كامل.',
+                ),
+                onTap: () => context.push('/riwayat'),
+              ),
+            ),
           if (s.last != null)
             Card(
               child: ListTile(
@@ -399,7 +415,7 @@ class HomePage extends StatelessWidget {
             'الفهرس متاح دون إنترنت. الصوت يحتاج اتصالًا عند الاستماع الأول، أو تنزيلًا مسبقًا. الروايات غير المتوفرة في المصدر تظهر بوضوح.',
           ),
           const Text(
-            'مصدر التلاوات: MP3Quran',
+            'مصادر التلاوات: MP3Quran • ن للقرآن وعلومه',
             style: TextStyle(color: Colors.black54),
           ),
         ],
@@ -608,30 +624,36 @@ class _SuwarPageState extends State<SuwarPage> {
                     ),
                   ),
                   Text(m.name),
+                  if (kIsWeb && !m.webDownloads)
+                    const Notice(
+                      'الاستماع متاح. التنزيل داخل المتصفح غير متاح لهذا المصدر؛ استخدم تطبيق أندرويد للتنزيل والاستماع دون إنترنت.',
+                    ),
                   const SizedBox(height: 12),
                   OutlinedButton.icon(
-                    onPressed: () async {
-                      final ok = await showDialog<bool>(
-                        context: context,
-                        builder: (ctx) => AlertDialog(
-                          title: const Text('تنزيل السور المتاحة؟'),
-                          content: Text(
-                            'سيتم تنزيل ${m.surahs.length} سورة بالتتابع. قد يحتاج ذلك إلى مساحة كبيرة ووقت طويل. يُفضّل اتصال Wi-Fi. على الويب أبق التطبيق مفتوحًا.',
-                          ),
-                          actions: [
-                            TextButton(
-                              onPressed: () => Navigator.pop(ctx, false),
-                              child: const Text('إلغاء'),
-                            ),
-                            FilledButton(
-                              onPressed: () => Navigator.pop(ctx, true),
-                              child: const Text('تنزيل'),
-                            ),
-                          ],
-                        ),
-                      );
-                      if (ok == true) await s.enqueue(m, m.surahs);
-                    },
+                    onPressed: kIsWeb && !m.webDownloads
+                        ? null
+                        : () async {
+                            final ok = await showDialog<bool>(
+                              context: context,
+                              builder: (ctx) => AlertDialog(
+                                title: const Text('تنزيل السور المتاحة؟'),
+                                content: Text(
+                                  'سيتم تنزيل ${m.surahs.length} سورة بالتتابع. قد يحتاج ذلك إلى مساحة كبيرة ووقت طويل. يُفضّل اتصال Wi-Fi. على الويب أبق التطبيق مفتوحًا.',
+                                ),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () => Navigator.pop(ctx, false),
+                                    child: const Text('إلغاء'),
+                                  ),
+                                  FilledButton(
+                                    onPressed: () => Navigator.pop(ctx, true),
+                                    child: const Text('تنزيل'),
+                                  ),
+                                ],
+                              ),
+                            );
+                            if (ok == true) await s.enqueue(m, m.surahs);
+                          },
                     icon: const Icon(Icons.download_outlined),
                     label: Text(
                       'تنزيل ${m.surahs.length == 114 ? 'المصحف كاملًا' : 'السور المتاحة (${m.surahs.length})'}',
@@ -735,7 +757,9 @@ class SurahTile extends StatelessWidget {
                           ? Icons.hourglass_top
                           : Icons.download_outlined,
                     ),
-                    onPressed: () => state.enqueue(m, [number]),
+                    onPressed: kIsWeb && !m.webDownloads
+                        ? null
+                        : () => state.enqueue(m, [number]),
                   ),
                 if (saved)
                   IconButton(
@@ -949,11 +973,17 @@ class PlayerPage extends StatelessWidget {
                 if (!s.downloaded.contains(m.key(n)))
                   IconButton(
                     tooltip: 'تنزيل السورة',
-                    onPressed: () => s.enqueue(m, [n]),
+                    onPressed: kIsWeb && !m.webDownloads
+                        ? null
+                        : () => s.enqueue(m, [n]),
                     icon: const Icon(Icons.download_outlined),
                   ),
               ],
             ),
+            if (kIsWeb && !m.webDownloads)
+              const Notice(
+                'التنزيل داخل المتصفح غير متاح لهذا المصدر. تطبيق أندرويد يدعم تنزيل هذه التسجيلات.',
+              ),
             if (s.downloaded.contains(m.key(n)))
               const Center(
                 child: Text(
@@ -1094,7 +1124,7 @@ class SettingsPage extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          const Text('القراءات العشر • إصدار 0.1.0'),
+          const Text('القراءات العشر • إصدار 0.2.0'),
           const SizedBox(height: 24),
           const Notice(
             'فهرس الروايات والسور مضمّن في التطبيق ويعمل دون اتصال. يظهر فقط المحتوى المصنّف للرواية المختارة؛ لا تُستكمل المصاحف الناقصة بتسجيلات من رواية أخرى.',
@@ -1130,7 +1160,7 @@ class SettingsPage extends StatelessWidget {
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
           ),
           const SelectableText(
-            'MP3Quran — https://www.mp3quran.net/ar/api\nالتسجيلات مستضافة لدى المصدر. لم يُتحقق من ترخيص شامل لإعادة التوزيع أو الاستخدام التجاري؛ لا نرفق الصوت داخل التطبيق ولا ندّعي ملكيته.',
+            'MP3Quran — https://www.mp3quran.net/ar/api\nن للقرآن وعلومه — https://www.nquran.com/ar/categories/603\nالتسجيلات مستضافة لدى المصدر. لم يُتحقق من ترخيص شامل لإعادة التوزيع أو الاستخدام التجاري؛ لا نرفق الصوت داخل التطبيق ولا ندّعي ملكيته.',
             style: TextStyle(height: 1.9),
           ),
           const SizedBox(height: 20),

@@ -1,3 +1,4 @@
+import 'audio_signature.dart';
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:path_provider/path_provider.dart';
@@ -57,9 +58,7 @@ class MediaStore {
       cancelToken: token,
     );
     final body = response.data!;
-    if (!(response.headers.value('content-type') ?? '')
-        .toLowerCase()
-        .startsWith('audio/')) {
+    if (!allowedAudioType(response.headers.value('content-type'))) {
       throw StateError('لم يرجع المصدر ملفًا صوتيًا');
     }
     final newValidator =
@@ -105,6 +104,10 @@ class MediaStore {
       );
     if (received == 0 || (total >= 0 && received != offset + total))
       throw StateError('التنزيل غير مكتمل');
+    final handle = await part.open();
+    final prefix = await handle.read(3);
+    await handle.close();
+    if (!isMp3(prefix)) throw StateError('الملف ليس تلاوة MP3 صالحة');
     await part.rename(path(key));
     if (await meta.exists()) await meta.delete();
   }

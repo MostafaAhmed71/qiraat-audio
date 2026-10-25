@@ -1,3 +1,4 @@
+import 'audio_signature.dart';
 import 'dart:js_interop';
 import 'dart:typed_data';
 import 'package:dio/dio.dart';
@@ -91,13 +92,11 @@ class MediaStore {
         requestOptions: response.requestOptions,
         type: DioExceptionType.cancel,
       );
-    if (!(response.headers.value('content-type') ?? '')
-        .toLowerCase()
-        .startsWith('audio/')) {
+    if (!allowedAudioType(response.headers.value('content-type'))) {
       throw StateError('لم يرجع المصدر ملفًا صوتيًا');
     }
     final bytes = response.data!;
-    if (bytes.isEmpty) throw StateError('ملف صوت فارغ');
+    if (!isMp3(bytes)) throw StateError('الملف ليس تلاوة MP3 صالحة');
     // Atomic transaction: canceled/failed downloads cannot be marked complete.
     final t = db.transactionList(['audio', 'sizes'], idbModeReadWrite);
     await t.objectStore('audio').put(Uint8List.fromList(bytes), key);

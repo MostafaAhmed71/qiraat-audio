@@ -224,6 +224,12 @@ class AppState extends ChangeNotifier {
   }
 
   Future<void> enqueue(Mushaf m, Iterable<int> surahs) async {
+    if (kIsWeb && !m.webDownloads) {
+      downloadError =
+          'مصدر ن للقرآن لا يتيح التنزيل داخل المتصفح بسبب CORS. الاستماع متاح، والتنزيل داخل تطبيق أندرويد متاح.';
+      notifyListeners();
+      return;
+    }
     for (final s in surahs) {
       final key = m.key(s);
       if (!downloaded.contains(key) &&

@@ -17,12 +17,17 @@ void main() {
   test(
     'Completed download remains readable after the network server closes',
     () async {
-      final bytes = List<int>.generate(8192, (i) => i % 256);
+      final bytes = <int>[
+        0x49,
+        0x44,
+        0x33,
+        ...List<int>.generate(8189, (i) => i % 256),
+      ];
       final server = await HttpServer.bind(InternetAddress.loopbackIPv4, 0);
       server.listen((request) async {
         request.response.headers.set(
           HttpHeaders.contentTypeHeader,
-          'audio/mpeg',
+          'application/octet-stream',
         );
         request.response.contentLength = bytes.length;
         request.response.add(bytes);
@@ -49,7 +54,12 @@ void main() {
   test(
     'Resume validates Range and If-Range before appending partial bytes',
     () async {
-      final bytes = List<int>.generate(8192, (i) => i % 251);
+      final bytes = <int>[
+        0x49,
+        0x44,
+        0x33,
+        ...List<int>.generate(8189, (i) => i % 251),
+      ];
       await File(
         '${directory.path}/2_1.part',
       ).writeAsBytes(bytes.take(1024).toList());

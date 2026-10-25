@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:qiraat_audio/catalog.dart';
@@ -14,7 +15,10 @@ void main() {
     () {
       for (final m in c.mushafs) {
         final r = c.riwayat.singleWhere((r) => r.id == m.riwaya);
-        expect(r.sourceIds, contains(m.sourceRiwaya));
+        if (m.source == 'mp3quran')
+          expect(r.sourceIds, contains(m.sourceRiwaya));
+        else
+          expect(m.verifiedExternal, isTrue);
         expect([9, 11, 21, 22], isNot(contains(m.sourceRiwaya)));
       }
     },
@@ -38,15 +42,33 @@ void main() {
     },
   );
   test(
-    'Source partial mushafs stay partial and unavailable riwayat stay empty',
+    'Partial mushafs stay partial and API gaps only use verified external sources',
     () {
       expect(c.mushafs.any((m) => m.surahs.length < 114), isTrue);
       for (final r in c.riwayat.where((r) => r.sourceIds.isEmpty)) {
-        expect(c.forRiwaya(r.id), isEmpty);
+        expect(c.forRiwaya(r.id).every((m) => m.verifiedExternal), isTrue);
       }
       final short = c.mushafs.firstWhere((m) => m.surahs.length < 114);
       for (var i = 0; i < short.surahs.length - 1; i++) {
         expect(short.surahs[i + 1], greaterThan(short.surahs[i]));
+      }
+    },
+  );
+  test(
+    'Masarawi is first in every riwaya, and the exact nQuran lists match imported audio',
+    () {
+      final raw =
+          jsonDecode(File('assets/masarawi-nquran.json').readAsStringSync())
+              as Map<String, dynamic>;
+      expect((raw['records'] as List).length, 20);
+      for (final row in raw['records']) {
+        final m = c.byId(100000 + (row['category'] as int));
+        expect(m.surahs.length, 64);
+        expect(m.surahs.first, 51);
+        expect(m.surahs.last, 114);
+        expect(m.webDownloads, isFalse);
+        expect(c.forRiwaya(m.riwaya).first.reciterId, 278);
+        for (final n in m.surahs) expect(m.audioUrl(n), row['tracks']['$n']);
       }
     },
   );
