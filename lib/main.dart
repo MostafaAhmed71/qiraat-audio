@@ -608,81 +608,90 @@ class _SuwarPageState extends State<SuwarPage> {
         final ss = m.surahs
             .where((n) => c.suwar[n]!.contains(query) || '$n' == query)
             .toList();
-        return Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    m.reciter,
-                    style: const TextStyle(
-                      color: green,
-                      fontSize: 21,
-                      fontWeight: FontWeight.bold,
+        // The entire header scrolls with the list, including long source notices.
+        // This keeps the surahs usable on short phones and with large text.
+        return CustomScrollView(
+          slivers: [
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      m.reciter,
+                      style: const TextStyle(
+                        color: green,
+                        fontSize: 21,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  Text(m.name),
-                  if (kIsWeb && !m.webDownloads)
-                    const Notice(
-                      'الاستماع متاح. التنزيل داخل المتصفح غير متاح لهذا المصدر؛ استخدم تطبيق أندرويد للتنزيل والاستماع دون إنترنت.',
-                    ),
-                  const SizedBox(height: 12),
-                  OutlinedButton.icon(
-                    onPressed: kIsWeb && !m.webDownloads
-                        ? null
-                        : () async {
-                            final ok = await showDialog<bool>(
-                              context: context,
-                              builder: (ctx) => AlertDialog(
-                                title: const Text('تنزيل السور المتاحة؟'),
-                                content: Text(
-                                  'سيتم تنزيل ${m.surahs.length} سورة بالتتابع. قد يحتاج ذلك إلى مساحة كبيرة ووقت طويل. يُفضّل اتصال Wi-Fi. على الويب أبق التطبيق مفتوحًا.',
+                    Text(m.name),
+                    if (kIsWeb && !m.webDownloads)
+                      const Notice(
+                        'الاستماع متاح. التنزيل داخل المتصفح غير متاح لهذا المصدر؛ استخدم تطبيق أندرويد للتنزيل والاستماع دون إنترنت.',
+                      ),
+                    const SizedBox(height: 12),
+                    OutlinedButton.icon(
+                      onPressed: kIsWeb && !m.webDownloads
+                          ? null
+                          : () async {
+                              final ok = await showDialog<bool>(
+                                context: context,
+                                builder: (ctx) => AlertDialog(
+                                  title: const Text('تنزيل السور المتاحة؟'),
+                                  content: Text(
+                                    'سيتم تنزيل ${m.surahs.length} سورة بالتتابع. قد يحتاج ذلك إلى مساحة كبيرة ووقت طويل. يُفضّل اتصال Wi-Fi. على الويب أبق التطبيق مفتوحًا.',
+                                  ),
+                                  actions: [
+                                    TextButton(
+                                      onPressed: () =>
+                                          Navigator.pop(ctx, false),
+                                      child: const Text('إلغاء'),
+                                    ),
+                                    FilledButton(
+                                      onPressed: () => Navigator.pop(ctx, true),
+                                      child: const Text('تنزيل'),
+                                    ),
+                                  ],
                                 ),
-                                actions: [
-                                  TextButton(
-                                    onPressed: () => Navigator.pop(ctx, false),
-                                    child: const Text('إلغاء'),
-                                  ),
-                                  FilledButton(
-                                    onPressed: () => Navigator.pop(ctx, true),
-                                    child: const Text('تنزيل'),
-                                  ),
-                                ],
-                              ),
-                            );
-                            if (ok == true) await s.enqueue(m, m.surahs);
-                          },
-                    icon: const Icon(Icons.download_outlined),
-                    label: Text(
-                      'تنزيل ${m.surahs.length == 114 ? 'المصحف كاملًا' : 'السور المتاحة (${m.surahs.length})'}',
+                              );
+                              if (ok == true) await s.enqueue(m, m.surahs);
+                            },
+                      icon: const Icon(Icons.download_outlined),
+                      label: Text(
+                        'تنزيل ${m.surahs.length == 114 ? 'المصحف كاملًا' : 'السور المتاحة (${m.surahs.length})'}',
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 12),
-                  TextField(
-                    decoration: const InputDecoration(
-                      labelText: 'ابحث باسم السورة أو رقمها',
-                      prefixIcon: Icon(Icons.search),
+                    const SizedBox(height: 12),
+                    TextField(
+                      decoration: const InputDecoration(
+                        labelText: 'ابحث باسم السورة أو رقمها',
+                        prefixIcon: Icon(Icons.search),
+                      ),
+                      onChanged: (v) => setState(() => query = v.trim()),
                     ),
-                    onChanged: (v) => setState(() => query = v.trim()),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
-            Expanded(
-              child: ss.isEmpty
-                  ? const EmptyState(
-                      icon: Icons.search_off,
-                      text: 'لا توجد سورة مطابقة في هذا المصحف',
-                    )
-                  : ListView.builder(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      itemCount: ss.length,
-                      itemBuilder: (context, i) =>
-                          SurahTile(m: m, number: ss[i], c: c, state: s),
-                    ),
-            ),
+            if (ss.isEmpty)
+              const SliverFillRemaining(
+                hasScrollBody: false,
+                child: EmptyState(
+                  icon: Icons.search_off,
+                  text: 'لا توجد سورة مطابقة في هذا المصحف',
+                ),
+              )
+            else
+              SliverPadding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                sliver: SliverList.builder(
+                  itemCount: ss.length,
+                  itemBuilder: (context, i) =>
+                      SurahTile(m: m, number: ss[i], c: c, state: s),
+                ),
+              ),
           ],
         );
       },
